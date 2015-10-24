@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,12 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func onAlert(button:UIButton) {
+        
+        UIAlertView(title: "Hello World", message: "Build from Junkins", delegate: nil, cancelButtonTitle: "Ok").show()
+        
     }
 
 
