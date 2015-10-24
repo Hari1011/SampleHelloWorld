@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     @IBAction func onAlert(button:UIButton) {
         
-        UIAlertView(title: "Hello World", message: "Build from Junkins", delegate: nil, cancelButtonTitle: "Ok").show()
+        UIAlertView(title: "Hello World", message: "Build from Jenkins", delegate: nil, cancelButtonTitle: "Ok").show()
         
     }
 
